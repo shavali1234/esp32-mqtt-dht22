@@ -46,7 +46,7 @@ This project reads temperature and humidity data from a **DHT22 sensor** using a
 
 ```bash
 mosquitto_sub -t "sensor/data/temperature" -t "sensor/data/humidity"
-
+```bash
 ---
 
 ## 📊 Using MQTT Explorer
