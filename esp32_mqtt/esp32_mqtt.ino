@@ -18,7 +18,7 @@ char temp[10], hum[10];
 const char* ssid = "******";//your wifi name
 const char* pssd = "******";//your wifi password
 
-const char* host = "192.168.0.104";//your host machine ip where mqtt broker is installed
+const char* host = "0.0.0.0";//your host machine ip where mqtt broker is installed
 const int port = 1883;
 const char* topic_temp = "sensor/data/temperature";
 const char* topic_hum = "sensor/data/humidity";
